@@ -4,7 +4,7 @@ body {
 }
 
 main {
-    /* background-color: aqua;  */
+    
     display: flex;
     height: 50vh;
     margin-bottom: 10px;
@@ -86,7 +86,7 @@ div.coments {
 }
 
 .coments h4 {
-    /* background-color: violet; */
+   
     width: 110px;
     transform: translate(60%, -50%);
     padding-bottom: 10px;
