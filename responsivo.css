@@ -1,0 +1,94 @@
+@media(max-width: 500px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+        width: 100vw;
+    }
+
+    section.comentarios {
+        display: flex;
+        flex-direction: column;
+        margin-top: 200px;
+        width: auto;
+        height: auto;
+
+
+
+
+    }
+
+    .titulo {
+        color: hsl(300, 43%, 22%);
+    }
+
+    .informacoes p {
+        font-size: 17px;
+        color: hsl(303, 10%, 53%);
+    }
+
+    .informacoes {
+    
+        width: auto;
+        text-align: center;
+        transform: translate(0%, 0%);
+    }
+
+    div.avaliacoes {
+        transform: translate(0%, 0%);
+        width: auto;
+        margin-left: 10px;
+        color: hsl(300, 43%, 22%);
+    }
+    .avaliacoes p {
+        background-color: hsl(300, 24%, 96%);}
+
+    span {
+        display: block;
+        margin: 5px;
+    }
+
+
+    .avaliacoes .reviews {
+        margin: 10px;
+        height: 60px;
+    }
+
+    .avaliacoes .report-guru {
+        margin: 10px;
+        height: 60px;
+    }
+
+    .avaliacoes .BestTech {
+        margin: 10px;
+        height: 60px;
+    }
+    
+    div.coments {
+    width: 80vw;
+    transform: translate(-23%,0%);
+    height: 30vh;
+    font-size: 20px;
+    
+    }
+    
+    
+    .coments img {
+        margin-left: 20px;
+    }
+    
+    .coments h4 {
+       text-align: center;
+       
+       width: 150px;
+    }
+    
+    .verified {
+        color: hsl(333, 80%, 67%);
+    }
+    footer{
+        margin-top: 30px;
+    }
+    
+    
+}
